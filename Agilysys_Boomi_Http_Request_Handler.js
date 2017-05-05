@@ -28,7 +28,7 @@ const CONST_ACTION = {
 
 define(['N/record', 'N/error', 'N/search',
         './lib/Agilysys_LIB_MAP', './lib/Agilysys_LIB_NS_ITEMS', './lib/Agilysys_NS_FM_SF',
-        '/lib/Agilysys_LIB_Tracking_Code'],
+        './lib/Agilysys_LIB_Tracking_Code'],
     function(record, error, search, ag, ag2, ag3, trackCodeSync) {
 
     var exports = {};
